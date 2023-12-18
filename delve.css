@@ -1,0 +1,31 @@
+.chapter-content {
+    font-family: 
+        Open Sans, open-sans, 
+        Helvetica Neue, Helvetica,
+        Roboto,Arial,sans-serif;
+}
+
+.chapter-content table td {
+    background: rgba(0,0,0,.1);
+    border: 1px solid hsla(0,0%,100%,.25)!important;
+    color: #ccc;
+    margin: 3px;
+    padding: 5px;
+}
+
+.chapter-content table {
+    background: #004b7a;
+    border: none;
+    border-collapse: separate;
+    border-spacing: 2px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.75);
+    margin: 10px auto;
+    width: 90%;
+}
+
+@media screen {
+    .chapter-content {
+        max-width: 35em;
+        margin: 1em auto;
+    }
+}
